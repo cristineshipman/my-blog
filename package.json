@@ -1,0 +1,23 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "A simple blog site using Node.js, express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristineshipman/my-blog.git"
+  },
+  "author": "Cristine Shipman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristineshipman/my-blog/issues"
+  },
+  "homepage": "https://github.com/cristineshipman/my-blog#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.3"
+  }
+}
