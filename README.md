@@ -1,6 +1,6 @@
-#TO BE CONTINUED
+# TO BE CONTINUED
 
-####"Because learning never ends!"
+#### "Because learning never ends!"
 
 ### Created a personal blog using express, node.js, mongodb, EJS, semantic UI, HTML5 and CSS3.
 
@@ -14,5 +14,4 @@
 - [X] Build SHOW route
 - [ ] Build EDIT and UPDATE route
 - [ ] Build DESTROY route
-
 - [ ] Create user login

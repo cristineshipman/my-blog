@@ -64,10 +64,10 @@ app.get("/blogs/:id", function(req, res){
   Blog.findById(req.params.id, function(err, foundBlog){
     if(err){
       res.redirect("/blogs");
-    }else{
+    } else{
       res.render("show", {blog: foundBlog});
     }
-  });
+  })
 });
 
 app.listen(3000, function(){
