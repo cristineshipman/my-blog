@@ -13,4 +13,3 @@
 - [ ] Learn MongoDB
 - [ ] Learn REST patterns
 - [ ] Create user login
-- [ ] Comet Haley
