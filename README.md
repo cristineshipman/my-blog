@@ -1,7 +1,8 @@
-#To be continued..
-"Because learning never ends!"
+#TO BE CONTINUED
 
-## Created a personal blog using express, node.js, mongodb, EJS, semantic UI, HTML5 and CSS3.
+####"Because learning never ends!"
+
+### Created a personal blog using express, node.js, mongodb, EJS, semantic UI, HTML5 and CSS3.
 
 
 ### Building the Blog Checklist
