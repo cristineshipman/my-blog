@@ -23,6 +23,7 @@ var blogSchema = new mongoose.Schema({
 
 //compile into model
 var Blog = mongoose.model("Blog", blogSchema);
+
 // ================
 // RESTFUL ROUTES
 // ================
@@ -80,6 +81,11 @@ app.get("/blogs/:id/edit", function(req, res){
       res.render("edit", {blog: foundBlog});
     }
   });
+});
+
+// UPDATE ROUTE
+app.put("/blogs/:id", function(req, res){
+  res.send("UPDATE ROUTE");
 });
 
 app.listen(3000, function(){
