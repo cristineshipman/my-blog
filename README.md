@@ -1,15 +1,17 @@
-# MY BLOG
+#To be continued..
+"Because learning never ends!"
 
-## Created a personal blog using express, node.js, mongodb, EJS, semantic UI.
+## Created a personal blog using express, node.js, mongodb, EJS, semantic UI, HTML5 and CSS3.
 
 
 ### Building the Blog Checklist
 
-- [X] Blog INDEX route
-- [X] Blog CREATE/NEW route
-- [X] Blog SHOW route
-- [ ] Blog EDIT and UPDATE route
-- [ ] Blog DESTROY route
 - [X] Learn MongoDB
 - [X] Learn REST patterns
+- [X] Build INDEX route
+- [X] Build CREATE and NEW Route
+- [X] Build SHOW route
+- [ ] Build EDIT and UPDATE route
+- [ ] Build DESTROY route
+
 - [ ] Create user login
