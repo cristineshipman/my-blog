@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
- 
+
 // MONGOOSE/MODEL CONFIG
 var blogSchema = new mongoose.Schema({
   title: String,
@@ -96,6 +96,11 @@ app.put("/blogs/:id", function(req, res){
     }
   });
 });
+
+// DESTROY ROUTE
+app.delete("/blogs/:id", function(req, res){
+  res.send("YOU HAVE REACHED THE DESTROY ROUTE");
+})
 
 app.listen(3000, function(){
   console.log("magic is happening")

@@ -2,7 +2,7 @@
 
 #### "Because learning never ends!"
 
-### Created a personal blog using express, node.js, mongodb, EJS, semantic UI, HTML5 and CSS3.
+### Created a personal blog using express, node.js, mongodb, EJS, RESTful Routes, semantic UI, HTML5 and CSS3.
 
 
 ### Building the Blog Checklist
