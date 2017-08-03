@@ -56,7 +56,18 @@ app.post("/blogs", function(req, res){
   // redirect
       res.redirect("/blogs");
     }
-  })
+  });
+});
+
+// SHOW ROUTE
+app.get("/blogs/:id", function(req, res){
+  Blog.findById(req.params.id, function(err, foundBlog){
+    if(err){
+      res.redirect("/blogs");
+    }else{
+      res.render("show", {blog: foundBlog});
+    }
+  });
 });
 
 app.listen(3000, function(){

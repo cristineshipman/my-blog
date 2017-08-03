@@ -6,10 +6,10 @@
 ### Building the Blog Checklist
 
 - [X] Blog INDEX route
-- [ ] Blog CREATE/NEW route
-- [ ] Blog SHOW route
+- [X] Blog CREATE/NEW route
+- [X] Blog SHOW route
 - [ ] Blog EDIT and UPDATE route
 - [ ] Blog DESTROY route
-- [ ] Learn MongoDB
-- [ ] Learn REST patterns
+- [X] Learn MongoDB
+- [X] Learn REST patterns
 - [ ] Create user login
