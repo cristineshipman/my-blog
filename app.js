@@ -83,8 +83,8 @@ app.get("/blogs/:id/edit", function(req, res){
   Blog.findById(req.params.id, function(err, foundBlog){
     if(err){
       res.redirect("/blogs");
-    } else {
-      res.render("edit", {blog: foundBlog});
+    } else{
+        res.render("edit", {blog: foundBlog});
     }
   });
 });
