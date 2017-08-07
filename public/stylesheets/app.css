@@ -13,3 +13,18 @@ i.icon {
 #delete {
   display: inline;
 }
+
+.content{
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-image: url(images/bg-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  font-size: 2em;
+  padding-left: 5%;
+}
