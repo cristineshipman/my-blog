@@ -15,16 +15,18 @@ i.icon {
 }
 
 .content{
-  padding-top: 10%;
-  width: 100%;
+  padding-top: 15%;
+  width: auto;
   height: 100%;
-  text-align: left;
-  background-image: url(images/bg-2.jpg);
+  background-image: url(images/bg-3.jpg);
   background-size: cover;
-  background-attachment: fixed;
+
 }
 
 .text {
-  font-size: 2em;
+  text-align: left;
+  font-size: 5em;
   padding-left: 5%;
+  padding-top: 7%;
+  color: slategrey;
 }
