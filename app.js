@@ -34,6 +34,10 @@ var Blog = mongoose.model("Blog", blogSchema);
 // ================
 
 app.get("/", function(req, res){
+  res.redirect("/blogs");
+});
+
+app.get("/landing", function(req, res){
   res.render("landing");
 });
 
