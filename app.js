@@ -8,7 +8,10 @@ app            = express();
 
 
 // APP CONFIG
-process.env.MONGODB_URI || 'mongodb://localhost/HelloMongoose'
+var uri = process.env.MONGODB_URI ||
+'mongodb://localhost/HelloMongoose';
+
+mongoose.connect(uri);
 
 mongoose.connect("mongodb://localhost/my_blog", {
   useMongoClient: true,
