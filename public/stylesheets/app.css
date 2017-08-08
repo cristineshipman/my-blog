@@ -16,17 +16,29 @@ i.icon {
 
 .content{
   padding-top: 15%;
-  width: auto;
-  height: 100%;
   background-image: url(images/bg-3.jpg);
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 
 }
 
 .text {
   text-align: left;
-  font-size: 5em;
   padding-left: 5%;
   padding-top: 7%;
-  color: slategrey;
+  color: #384047;
+}
+
+.text h1 {
+  font-size: 4em;
+}
+.text h3 {
+  font-size: 2em;
+}
+
+.text button {
+  font-size: 1em;
 }
