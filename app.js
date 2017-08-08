@@ -8,10 +8,17 @@ app            = express();
 
 
 // APP CONFIG
-var uri = process.env.MONGODB_URI ||
-'mongodb://localhost/HelloMongoose';
+var uristring =
+  process.env.MONGODB_URI ||
+  'mongodb://localhost/HelloMongoose';
 
-mongoose.connect(uri);
+  mongoose.connect(uristring, function (err, res) {
+  if (err) {
+    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
+  } else {
+    console.log ('Succeeded connected to: ' + uristring);
+  }
+});
 
 mongoose.connect("mongodb://localhost/my_blog", {
   useMongoClient: true,
